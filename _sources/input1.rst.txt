@@ -12,8 +12,8 @@ Text Files
 -------------------------------
 Input files of this package is text file (.txt). When you want to use this package You need to prepare a text file in the following format:
 
- * line 1: number n of tasks
- * lines 2 - n+1: integer task times
+ * line 1: number of tasks (n)
+ * lines 2 - n+1: task times
  * lines n+2, …, last line: direct precedence relations in form "i,j"
 
 An example of a properly formatted text file is show below.
