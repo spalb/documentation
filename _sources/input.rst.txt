@@ -1,0 +1,53 @@
+.. rty documentation master file, created by
+   sphinx-quickstart on Thu Dec 30 10:16:47 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Input of package
+===============================
+
+This section will tell you know about input of this package, it will consist of text files and cycle time.
+
+Text Files
+-------------------------------
+Input files of this package is text file (.txt). When you want to use this package You need to prepare a text file in the following format:
+
+ * line 1: number n of tasks
+ * lines 2 - n+1: integer task times
+ * lines n+2, …, last line: direct precedence relations in form "i,j"
+
+An example of a properly formatted text file is show below.
+
+.. figure:: /images/input.png
+
+Cycle time
+-------------------------------
+When you run the function, it shows message “Enter the cycle time”. You must enter the cycle time for the function to be able to solve the problem.
+
+ * lcr, rpw, comsoal, u_ga 🠒 Cycle time must larger than maximum processing time
+ * parallel_ga 🠒 Maximum processing time cann't exceed twice the cycle time
+
+Population size
+-------------------------------
+Population size only has in u_ga and parallel_ga. It is number of population size in genetic algorithm. It should have a value of 5 or higher. If you don't know what value to use, you can enter “d” to use the default value is 30
+
+Crossover rate
+-------------------------------
+Crossover rate only has in u_ga and parallel_ga. it is probability to crossover in genetic algorithm. It should have a value of 0 to 1. If you don't know what value to use, you can enter “d” to use the default value is 0.7
+
+Mutation rate
+-------------------------------
+Mutation rate only has in u_ga and parallel_ga. it is probability to mutation in genetic algorithm. It should have a value of 0 to 1. If you don't know what value to use, you can enter “d” to use the default value is 0.3
+
+Max generation
+-------------------------------
+Max generation only has in u_ga and parallel_ga. it is number of generation in genetic algorithm. It should have a value of 1 or higher. If you don't know what value to use, you can enter “d” to use the default value is 100
+
+
+
+
+
+       
+
+
+

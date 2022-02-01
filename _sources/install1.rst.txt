@@ -1,0 +1,52 @@
+.. rty documentation master file, created by
+   sphinx-quickstart on Thu Dec 30 10:16:47 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+How to install and use 
+===============================
+
+1.Install this package by open the command prompt and run the following command.
+
+.. code::
+
+   pip install spalb
+
+2.Import this package by run the following command.
+
+.. code::
+
+   import spalb
+
+3.Choose the desired function and run with command in the following format:
+
+ * spalb.function_name(“filename”)
+
+Example of command is shown below.
+
+.. code::
+
+   spalb.rpw("data.txt)
+
+4.When you run command in step 3 it show message “Enter the cycle time”. 
+
+.. code::
+
+   Enter the cycle time :
+
+You must enter the cycle time for the function to be able to solve the problem.
+
+ * lcr, rpw, comsoal, u_ga 🠒 Cycle time must larger than maximum processing time
+ *	parallel_ga 🠒 Maximum processing time cann't exceed twice the cycle time
+
+If the cycle time does not match the function's condition it show message:
+
+ * lcr, rpw, comsoal, u_ga 🠒 Cycle time is less than maximum processing time
+ *	parallel_ga 🠒 Maximum processing time exceed twice the cycle time
+
+You must enter the new cycle time correctly for the function to be able to solve the problem.
+
+5.Solve the problem and show answer
+
+.. figure:: /images/output.png
+

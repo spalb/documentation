@@ -1,0 +1,43 @@
+.. spalb documentation master file, created by
+   sphinx-quickstart on Sun Jan 30 15:08:29 2022.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to spalb documentation!
+=================================
+
+Spalb (Single Product Assembly Line Balancing) is package for solve assembly line balancing problem. This package can solve single model assembly line and 3 types of assembly line:
+
+ * Straight-Line Assembly Line
+ * U-shaped Assembly Line
+ * Parallel Workstation Assembly Line
+
+Spalb has 5 function to solve assembly line balancing problems. You can choose function you want and proper with assembly line types.
+
+.. list-table:: 
+   :widths: 25  75
+   :header-rows: 1
+   :align: center
+
+   * - Function
+     - Description
+   * - lcr
+     - Use largest candidate rule to solve the straight-line assembly line balancing problem. 
+   * - rpw 
+     - Use rank position weight to solve the straight-line assembly line balancing problem.
+   * - comsoal
+     - Use comsoal to solve the straight-line assembly line balancing problem. 
+   * - u_ga
+     - Use genetic algorithm to solve the u-shaped assembly line balancing problem.
+   * - parallel_ga
+     - 1.Use genetic algorithm to solve the parallel workstation assembly line balancing problem
+
+       2.Maximum number of parallel workstation per workstation is 1
+   
+.. toctree::
+   :maxdepth: 3
+   :caption: Contents:
+
+   install1
+   input1
+   output1

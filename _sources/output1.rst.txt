@@ -1,0 +1,43 @@
+.. rty documentation master file, created by
+   sphinx-quickstart on Thu Dec 30 10:16:47 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Output of package 
+===============================
+
+Example of output is shown below.
+
+.. figure:: /images/output.png
+
+The description of output is as follows:
+
+.. list-table:: 
+   :widths: auto
+   :header-rows: 1
+
+   * - Name
+     - Description
+   * - Station
+     - Number of workstations 
+   * - Work element 
+     - Work element in each station
+   * - Station time
+     - Working time in each station 
+   * - Efficiency 
+     - Efficiency of answer
+   * - Balance Delay  
+     - Balance delay  of answer
+   * - Smoothness Index  
+     - Smoothness index  of answer
+   * - Parallel Station  
+     - 1.Number of parallel station per workstation
+
+       2.It only has in parallel_ga
+
+
+
+
+
+
+

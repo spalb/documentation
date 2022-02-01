@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to install and use &mdash; spalb 1.0.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> spalb
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">How to install and use</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">spalb</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>How to install and use</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/install.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="how-to-install-and-use">
+<h1>How to install and use<a class="headerlink" href="#how-to-install-and-use" title="Permalink to this headline"></a></h1>
+<p>1.Install this package by run the following command.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">spalb</span>
+</pre></div>
+</div>
+<p>2.Import this package by run the following command.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">spalb</span>
+</pre></div>
+</div>
+<p>3.Choose the desired function and run with command in the following format:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>spalb.function_name(“filename”)</p></li>
+</ul>
+</div></blockquote>
+<p>Example of command is shown below.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">spalb</span><span class="o">.</span><span class="n">rpw</span><span class="p">(</span><span class="s2">&quot;data.txt)</span>
+</pre></div>
+</div>
+<p>4.When you run command in step 3 it show message “Enter the cycle time”.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Enter</span> <span class="n">the</span> <span class="n">cycle</span> <span class="n">time</span> <span class="p">:</span>
+</pre></div>
+</div>
+<p>You must enter the cycle time for the function to be able to solve the problem.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>lcr, rpw, comsoal, u_ga 🠒 Cycle time must larger than maximum processing time</p></li>
+<li><p>parallel_ga 🠒 Maximum processing time cann’t exceed twice the cycle time</p></li>
+</ul>
+</div></blockquote>
+<p>If the cycle time does not match the function’s condition it show message:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>lcr, rpw, comsoal, u_ga 🠒 Cycle time is less than maximum processing time</p></li>
+<li><p>parallel_ga 🠒 Maximum processing time exceed twice the cycle time</p></li>
+</ul>
+</div></blockquote>
+<p>You must enter the new cycle time correctly for the function to be able to solve the problem.</p>
+<p>5.Solve the problem and show answer</p>
+<figure class="align-default">
+<img alt="_images/output.png" src="_images/output.png" />
+</figure>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Sirapob and Siriwimon.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
