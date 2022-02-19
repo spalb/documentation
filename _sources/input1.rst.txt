@@ -27,22 +27,41 @@ When you run the function, it shows message “Enter the cycle time”. You must
  * lcr, rpw, comsoal, u_ga 🠒 Cycle time must larger than maximum processing time
  * parallel_ga 🠒 Maximum processing time cann't exceed twice the cycle time
 
+.. code::
+
+   Enter the cycle time:
+
 Population size
 -------------------------------
 Population size only has in u_ga and parallel_ga. It is number of population size in genetic algorithm. It should have a value of 5 or higher. If you don't know what value to use, you can enter “d” to use the default value is 30
+
+.. code::
+
+   Enter the population size (Default = 30):
 
 Crossover rate
 -------------------------------
 Crossover rate only has in u_ga and parallel_ga. it is probability to crossover in genetic algorithm. It should have a value of 0 to 1. If you don't know what value to use, you can enter “d” to use the default value is 0.7
 
+.. code::
+
+   Enter the crossover rate (Default = 0.7):
+
 Mutation rate
 -------------------------------
 Mutation rate only has in u_ga and parallel_ga. it is probability to mutation in genetic algorithm. It should have a value of 0 to 1. If you don't know what value to use, you can enter “d” to use the default value is 0.3
 
+.. code::
+
+   Enter the mutation rate (Default = 0.3):
+   
 Max generation
 -------------------------------
 Max generation only has in u_ga and parallel_ga. it is number of generation in genetic algorithm. It should have a value of 1 or higher. If you don't know what value to use, you can enter “d” to use the default value is 100
 
+.. code::
+
+   Enter the max generation (Default = 100):
 
 
 

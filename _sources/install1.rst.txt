@@ -32,7 +32,7 @@ Example of command is shown below.
 
 .. code::
 
-   Enter the cycle time :
+   Enter the cycle time:
 
 You must enter the cycle time for the function to be able to solve the problem.
 
