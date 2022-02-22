@@ -26,7 +26,7 @@ Example of command is shown below.
 
 .. code::
 
-   spalb.rpw("data.txt)
+   spalb.rpw("data.txt")
 
 4.When you run command in step 3 it show message “Enter the cycle time”. 
 
